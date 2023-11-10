@@ -31,14 +31,16 @@ MySQL Service 구성 --> Database Tools Connection 구성 --> APEX instances 구
 2) OCI User ID: user 셋팅에 나오는 User ID를 지정    
 3) OCI Tenancy ID: user 셋팅에 나오는 Tenancy ID를 지정    
 4) OCI Priviate Key: user 셋팅에 API 설정에 등록된 private key를 지정 (없으면 새로 생성해서 등록)    
-5) OCI Public Key Fingerprint: user 셋팅에 API 설정에 표시된 Fingerprint를 지정    
+5) OCI Public Key Fingerprint: user 셋팅에 API 설정에 표시된 Fingerprint를 지정
 <img width="1151" alt="image" src="https://github.com/khkwon01/Apex-MySQL/assets/8789421/d6f6e8a5-caa3-4906-8dba-cc00ab032079">   
 - Web Credentials 구성하고 나면 아래와 같이 표시됨   
-<img width="1173" alt="image" src="https://github.com/khkwon01/Apex-MySQL/assets/8789421/76fbd7d1-9fed-4e45-823f-860c47b028c0">    
-- OCI Web인증을 통해 Rest Enabled SQL를 설정하기 위해 위에 구성한 connection를 사용하여 MySQL 연결      
-1) Endpoint URL : https://sql.dbtools.<<수정(리즌):ap-chuncheon-1>>.oci.oraclecloud.com/20201005/ords/<<수정(connection OCI정보>>/_/sql 로 입력
-<img width="816" alt="image" src="https://github.com/khkwon01/Apex-MySQL/assets/8789421/39e729a6-4360-4bb2-bb9d-203a7742a539">    
-- 
+<img width="1173" alt="image" src="https://github.com/khkwon01/Apex-MySQL/assets/8789421/76fbd7d1-9fed-4e45-823f-860c47b028c0">
+- OCI Web인증을 통해 Rest Enabled SQL를 설정하기 위해 위에 구성한 connection를 사용하여 MySQL 연결
+```
+Endpoint URL 입력예 => https://sql.dbtools.<<수정(리즌):ap-chuncheon-1>>.oci.oraclecloud.com/20201005/ords/<<수정(connection OCID정보>>/_/sql 로 입력
+```
+<img width="816" alt="image" src="https://github.com/khkwon01/Apex-MySQL/assets/8789421/39e729a6-4360-4bb2-bb9d-203a7742a539">       
+  
 <img width="815" alt="image" src="https://github.com/khkwon01/Apex-MySQL/assets/8789421/a7d0835e-c459-4c61-8ac7-bcc9ee8837a2">
 
 
