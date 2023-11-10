@@ -22,5 +22,5 @@ MySQL Service 구성 --> Database Tools Connection 구성 --> APEX instances 구
 - 구성후 APEX instance를 선택하여 상세 페이지에서 들어가서 APEX 웹 인스턴스에 접속 (그림중 Launch APEX)    
 <img width="783" alt="image" src="https://github.com/khkwon01/Apex-MySQL/assets/8789421/aedf4208-aaff-48a0-8dc7-8a6f01b05cde">     
 - Admin 페이지 접속 로그인이 나오면 구성시 등록한 패스워드로 로그인하여 신규 application 서비스를 하나 생성하여 해당 application 로그인     
-<img width="696" alt="image" src="https://github.com/khkwon01/Apex-MySQL/assets/8789421/5a62d4db-58c8-4dac-988d-3234b656f93f">    
-- 여기 예제로 testapp1 서비스를 생성하여 설정한 계정과 패스워드로 로그인함
+<img width="696" alt="image" src="https://github.com/khkwon01/Apex-MySQL/assets/8789421/5a62d4db-58c8-4dac-988d-3234b656f93f">       
+- 예제로 testapp1 서비스를 생성하여 설정한 계정과 패스워드로 로그인함
