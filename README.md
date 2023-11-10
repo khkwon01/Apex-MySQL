@@ -23,4 +23,20 @@ MySQL Service 구성 --> Database Tools Connection 구성 --> APEX instances 구
 <img width="783" alt="image" src="https://github.com/khkwon01/Apex-MySQL/assets/8789421/aedf4208-aaff-48a0-8dc7-8a6f01b05cde">     
 - Admin 페이지 접속 로그인이 나오면 구성시 등록한 패스워드로 로그인하여 신규 application 서비스를 하나 생성하여 해당 application 로그인     
 <img width="696" alt="image" src="https://github.com/khkwon01/Apex-MySQL/assets/8789421/5a62d4db-58c8-4dac-988d-3234b656f93f">       
-- 예제로 testapp1 서비스를 생성하여 설정한 계정과 패스워드로 로그인함
+- 예제로 testapp1 서비스를 생성하여 설정한 계정과 패스워드로 로그인함      
+
+### 4. APEX에서 MySQL 설정
+<img width="1151" alt="image" src="https://github.com/khkwon01/Apex-MySQL/assets/8789421/d6f6e8a5-caa3-4906-8dba-cc00ab032079">
+- Workspace Utilities에서 Web Credentials사용하여 oracle cloud와 연결할수 있도록 설정    
+  - Authentication type: OCI    
+  - OCI User ID: user 셋팅에 나오는 User ID를 지정    
+  - OCI Tenancy ID: user 셋팅에 나오는 Tenancy ID를 지정    
+  - OCI Priviate Key: user 셋팅에 API 설정에 등록된 private key를 지정 (없으면 새로 생성해서 등록)    
+  - OCI Public Key Fingerprint: user 셋팅에 API 설정에 표시된 Fingerprint를 지정    
+<img width="1173" alt="image" src="https://github.com/khkwon01/Apex-MySQL/assets/8789421/76fbd7d1-9fed-4e45-823f-860c47b028c0">
+- Web Credentials 구성하고 나면 위와 같이 표시됨
+<img width="816" alt="image" src="https://github.com/khkwon01/Apex-MySQL/assets/8789421/39e729a6-4360-4bb2-bb9d-203a7742a539">
+- OCI Web인증을 통해 Rest Enabled SQL를 설정하기 위해 위와 구성한 connection를 사용하여 MySQL 연결
+  - Endpoint
+
+
